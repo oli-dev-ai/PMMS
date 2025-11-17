@@ -209,7 +209,14 @@ st.markdown("""
 - Reorganizuje kolumny do formatu PTV (50 kolumn)
 - Dodaje formuły VLOOKUP, obliczenia i stałe wartości
 - Oznacza czerwonym wiersze z `volume > 99`
-""")
+
+            
+**Ważne**
+Po pobraniu pliku i dodaniu etykiety etc. w kolumnie absolute timewindows trzeba enter w pasku formuły.
+Pasek formuły to ten biały pasek z tekstem który znajduje się pod paskiem z narzędziami i tam klikamy enter.
+Bez tego formuła się nie wczyta, wynika to z błędu excela.
+Po wciśnięciu enter, wystarczy przeciągnąć formułę po wszystkich komórkach. """)
+
 
 st.markdown("---")
 
